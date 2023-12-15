@@ -1,5 +1,5 @@
 -- Creates a trigger that decreases the quantity of an item after adding a new order
-CREATE TRIGGER IF NOT EXISTS decreaseItemQuantity
+CREATE TRIGGER decreaseItemQuantity
 AFTER INSERT ON orders
 FOR EACH ROW
 	UPDATE items
