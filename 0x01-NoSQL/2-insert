@@ -1,6 +1,2 @@
 // Inserts a document in the collection school
-db_name=$1
-echo "db = db.getSiblingDB('$db_name')" > temp.js
-echo "db.school.insertOne({name: 'Holberton school'})" >> temp.js
-mongo temp.js
-rm temp.js
+db.school.insert( { name: "Holberton school" } )
