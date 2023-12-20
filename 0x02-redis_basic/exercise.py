@@ -5,7 +5,6 @@ import uuid
 import redis
 from functools import wraps
 
-any
 
 def count_calls(method: Callable) -> Callable:
     """
