@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Cache Class"""
-from ctypes import Union
+from typing import Union
 import uuid
 import redis
 
